@@ -1,6 +1,6 @@
-com/example/service/SongService.class
-com/example/controller/SongController.class
+com/example/songsapi/service/SongServiceImpl.class
+com/example/songsapi/controller/SongController.class
 com/example/songsapi/SongsApiApplication.class
-com/example/model/Song.class
-com/example/repository/SongRepository.class
-com/example/service/SongServiceImpl.class
+com/example/songsapi/repository/SongRepository.class
+com/example/songsapi/model/Song.class
+com/example/songsapi/service/SongService.class

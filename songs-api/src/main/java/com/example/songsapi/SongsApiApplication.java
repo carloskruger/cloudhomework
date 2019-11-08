@@ -1,6 +1,5 @@
 package com.example.songsapi;
 
-import com.example.model.Song;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
@@ -18,8 +17,7 @@ public class SongsApiApplication {
 	}
 
 	@GetMapping("/list")
-	public String getAll() {
-		return "list";
+	public String getAll() { return "list";
 	}
 
 
